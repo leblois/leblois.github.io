@@ -1,0 +1,6 @@
+cat ~/.ssh/id_ed25519_2inrae.pub
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519_2inrae
+
+cd /home/ant1/Documents/Git_PageAL/leblois
+
